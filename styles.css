@@ -1,0 +1,196 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+
+
+}
+
+header {
+    background-color: #e0e0e0;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 40px;
+}
+
+main {
+    max-width: 1200px;
+    margin-inline: auto;
+    min-height: 100vh;
+    padding-inline: 20px;
+}
+
+footer {
+    background-color: #e0e0e0;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #004777;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #004777;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.exercize-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.exercize-card__header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.exercize-card__header h2 {
+    margin: 0;
+    color: #004777;
+}   
+
+.used-tags {
+    font-size: 0.9rem;
+    color: #838383;
+    margin-top: 5px;
+}
+
+.exercize-card__content label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.exercize-card__content input[type="text"],
+.exercize-card__content input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.exercize-card__content button {
+    padding: 8px 12px;
+    background-color: #004777;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.exercize-card__content button:hover {
+    background-color: #003355;
+}
+
+.exercize-card__content #result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.exercize-card__content ol {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.exercize-card__content ol li {
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    margin-left: 10px;
+    padding: 2px 6px;
+    background-color: #cc0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #990000;
+}
+
+.exercize-card__content #user-list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.exercize-card__content #user-list li {
+    margin-bottom: 5px;
+}
+
+.exercize-card__content #search-user-list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.exercize-card__content #search-user-list li {
+    margin-bottom: 5px;
+}
+
+.exercize-card__content .error {
+    color: #cc0000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.exercize-card__content .success {
+    color: #008000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.card h4 {
+    margin: 10px 0 5px 0;
+    font-size: 1.2rem;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}

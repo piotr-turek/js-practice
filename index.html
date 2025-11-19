@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS & API Practice</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script-ex-1.js" defer></script>
+    <script src="script-ex-2.js" defer></script>
+    <script src="script-ex-4.js" defer></script>
+    <script src="script-ex-5.js" defer></script>
+    <script src="script-ex-6.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2>JS & API Practice Exercises by Piotrek</h2>
+    </header>
+    <main>
+        <div class="exercize-card">
+            <div class="exercize-card__header">
+                <h2>Exercise 1: BMI calculator</h2>
+                <p class="used-tags">Use of: querySelector, addEventListener, value, innerText, functions</p>
+            </div>
+            <div class="exercize-card__content">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" placeholder="Enter your weight">
+                <br>
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" placeholder="Enter your height">
+                <br>
+                <button id="calculateBtn">Calculate BMI</button>
+                <h3 id="result">Your BMI will be displayed here.</h3>
+            </div>
+        </div>
+
+
+        <div class="exercize-card">
+            <div class="exercize-card__header">
+                <h2>Exercise 2: Shopping list</h2>
+                <p class="used-tags">Use of: .push(), .splice(), .forEach(), loop rendering</p>
+            </div>
+            <div class="exercize-card__content">
+                <label for="shopping-list-input">Add product:</label>
+                <input type="text" id="shopping-list-input" placeholder="Add product to shopping list.">
+                <button id="add-item">Add item</button>
+                <h3>Shopping list:</h3>
+                <ol id="shopping-list">
+                    <!-- Shopping list items will be rendered here -->
+                </ol>
+               
+            </div>
+        </div>
+
+        <div class="exercize-card">
+            <div class="exercize-card__header">
+                <h2>Exercise 3: Local Storage for Shopping list</h2>
+                <p class="used-tags">Use of: localStorage.setItem(), JSON.stringify(), JSON.parse(), inicjalisation</p>    
+            </div>
+            <p>Local Storage should now work fine in Excercise 2</p>
+            </div>
+        </div>
+
+        <div class="exercize-card">
+            <div class="exercize-card__header">
+                <h2>Exercise 4: Searching Users</h2>
+                <p class="used-tags">Use of: objects { name, age }, .map(), .filter(), .find() </p>
+            </div>
+            <div class="exercize-card__content">
+               <ul id="user-list"></ul>
+               <b>Results visible in console. Map, Filter, Find.</b>
+            </div>
+        </div>
+
+        <div class="exercize-card">
+            <div class="exercize-card__header">
+                <h2>Exercise 5: API + filters + DOM</h2>
+                <p class="used-tags">Use of: .filter(), string methods, event input</p>
+            </div>
+            <div class="exercize-card__content">
+                <label for="name-search-input">Search for a person:</label>
+                <input type="text" id="name-search-input" placeholder="Type name...">
+                <ul id="search-user-list"></ul>
+            </div>
+        </div>
+
+        <div class="exercize-card">
+            <div class="exercize-card__header">
+                <h2>Exercise 6: Advenced DOM - users cards</h2>
+                <p class="used-tags">Use of: dynamic HTML templates, styling with JS, working with objects</p>
+            </div>
+            <div class="exercize-card__content">
+               <div id="users-container" class="container"></div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2025 "JS & API Practice Exercises" by <span class="author">Piotr Turek</span></p>
+    </footer>
+
+    
+    
+</body>
+</html>
