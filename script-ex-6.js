@@ -15,9 +15,9 @@ function renderUsers(users) {
 
     card.innerHTML = `
       <h2>${user.name}</h2>
-      <p><strong>Email:</strong> ${user.email}</p>
-      <p><strong>Miasto:</strong> ${user.address.city}</p>
-      <p><strong>Firma:</strong> ${user.company.name}</p>
+      <p><strong>E-mail:</strong> ${user.email}</p>
+      <p><strong>City:</strong> ${user.address.city}</p>
+      <p><strong>Company:</strong> ${user.company.name}</p>
     `;
 
     container.appendChild(card);
